@@ -1,0 +1,4 @@
+bison -d architecture-summary.y
+flex architecture-summary.l
+gcc lex.yy.c architecture-summary.tab.c -o parser.exe
+parser network.txt

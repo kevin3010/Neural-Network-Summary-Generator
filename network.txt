@@ -1,0 +1,4 @@
+input:(80,80,3)
+conv:(30,5,relu)
+conv:(30,5,relu)
+conv:(40,5,sigmoid)
